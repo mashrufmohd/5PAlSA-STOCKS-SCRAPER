@@ -202,14 +202,7 @@ The log file includes:
 
 ---
 
-## 👨‍💻 Author
 
-**Mohd Mashruf**  
-B.E. Computer Science & Engineering  
-Chandigarh University
-
-- **LinkedIn:** [linkedin.com/in/mohd-mashruf](https://www.linkedin.com/in/mohd-mashruf/)
-- **GitHub:** [github.com/mashrufmohd](https://github.com/mashrufmohd)
 
 ---
 
@@ -233,4 +226,4 @@ For issues, questions, or suggestions, please contact via LinkedIn or GitHub.
 
 ---
 
-**Happy Scraping! 🚀**
+
