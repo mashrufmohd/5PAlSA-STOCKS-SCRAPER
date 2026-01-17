@@ -206,7 +206,8 @@ The log file includes:
 
 We welcome contributions from the community, especially participants of **DSC Winter of Code 2026**.
 
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for:
+
+Please read the[Contribution.md](Contribution.md) file for:
 - Setup instructions
 - Beginner-friendly issues
 - Pull request guidelines
