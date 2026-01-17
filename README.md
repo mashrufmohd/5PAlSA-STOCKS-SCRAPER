@@ -1,5 +1,7 @@
 # 5Paisa Stocks Scraper
 
+> 🎯 Official Project for **DSC Winter of Code 2026**
+
 A Python-based web scraper built using **Playwright** that automatically extracts all company names and logo URLs from the 5Paisa Stocks page. This project handles dynamic content loading via infinite scroll, validates logo URLs, removes duplicates, and exports clean data to Excel.
 
 > **⚠️ IMPORTANT:** The scraper opens a visible browser window (non-headless mode) to bypass anti-bot protection. **Do not close the browser window manually!** Let the script complete and it will close automatically. The scraping process may take 2-5 minutes depending on the number of stocks.
@@ -92,7 +94,7 @@ python scraper/run_scraper.py
 
 ### What Happens During Execution:
 
-1. **Browser Launch** – Opens Chromium browser in headless mode
+1.  **Browser Launch** – Opens Chromium browser in visible (non-headless) mode
 2. **Navigate to Page** – Loads https://www.5paisa.com/stocks/all
 3. **Infinite Scroll** – Scrolls down repeatedly until all stocks are loaded
 4. **Data Extraction** – Parses HTML and extracts company names and logo URLs
@@ -200,11 +202,22 @@ The log file includes:
 ### Scraper stuck during scrolling
 **Solution:** Check your internet connection. The scraper will timeout after 60 seconds on page load.
 
----
+## 🤝 Contributing
+
+We welcome contributions from the community, especially participants of **DSC Winter of Code 2026**.
+
+Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for:
+- Setup instructions
+- Beginner-friendly issues
+- Pull request guidelines
+- Code of conduct
 
 
+## ⚠️ Disclaimer
 
----
+This project is intended for **educational purposes only**.  
+Users are responsible for ensuring compliance with the website’s terms of service before scraping any data.
+
 
 ## 📜 License
 
